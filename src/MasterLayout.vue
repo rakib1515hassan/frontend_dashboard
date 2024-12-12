@@ -13,7 +13,7 @@
             </div>
 
             <!-- Footer -->
-            <Footer />
+            <Footer/>
         </div>
 
         <!-- Theme Settings -->
@@ -22,16 +22,16 @@
 </template>
 
 <script>
-// import Sidebar from './components/layouts/Sidebar.vue';
-// import Navbar from './components/layouts/Navbar.vue';
-// import Footer from './components/layouts/Footer.vue';
+import Sidebar from './components/layouts/Sidebar.vue';
+import Navbar from './components/layouts/Navbar.vue';
+import Footer from './components/layouts/Footer.vue';
 // import ThemeSettings from './components/layouts/ThemeSettings.vue';
 
 export default {
     components: {
-        // Sidebar,
-        // Navbar,
-        // Footer,
+        Sidebar,
+        Navbar,
+        Footer,
         // ThemeSettings,
     },
     data() {
