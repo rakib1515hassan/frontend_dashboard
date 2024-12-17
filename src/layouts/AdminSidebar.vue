@@ -25,16 +25,16 @@
             <div class="sidebar-content">
                 <ul class="nav nav-secondary">
                     <li class="nav-item" :class="{ active: activeTab === 'admin_home' }">
-                        <a href="/admin_dashboard">
+                        <router-link to="/admin" class="nav-link">
                             <i class="fas fa-home"></i>
                             <p>Dashboard</p>
-                        </a>
+                        </router-link>
                     </li>
                     <li class="nav-item" :class="{ active: activeTab === 'vr_list' }">
-                        <a href="/admin_vr_model_list">
+                        <router-link to="/admin/admin_vr_model_list" class="nav-link">
                             <i class="fa-solid fa-database"></i>
                             <p>VR3D List</p>
-                        </a>
+                        </router-link>
                     </li>
                 </ul>
             </div>
